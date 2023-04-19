@@ -1,0 +1,337 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #EDEDE9
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  background-color: #484848;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #fbc531;
+}
+
+.navbar .navbar-nav .active>.nav-link {
+  color: #fbc531;
+}
+
+footer a.text-light:hover {
+  color: #fed136 !important;
+  text-decoration: none;
+}
+
+footer .cizgi {
+  border-right: 1px solid #535e67;
+}
+
+@media (max-width: 992px) {
+  footer .cizgi {
+    border-right: none;
+  }
+}
+
+
+
+.home {
+  background-color: #D6CCC2;
+  /* background-image: url("https: //www.trainingfolks.com/hubfs/shutterstock_1005706441.png#keepProtocol"); */
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+  transition: 1s ease-in-out;
+}
+
+.leftcolumn:hover {
+  transform: scale(1.05)
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #EDEDE9;
+  padding-left: 20px;
+}
+
+
+.fakeimg {
+  background-size: cover;
+  background-image: url("/public/buisness.jpg");
+  width: 100%;
+  padding: 20px;
+}
+
+.fakeimgon {
+  background-size: cover;
+  background-image: url("/public/homepage.webp");
+  width: 100%;
+  padding: 20px;
+  height: 25rem;
+
+}
+
+.title {
+  background-size: cover;
+  background-image: url("/public/helpu.jpg");
+  width: 100%;
+  padding: 20px;
+  height: 40rem;
+
+}
+
+.fakeimgMack {
+  background-size: cover;
+  background-image: url("/public/mckdonalds.jpeg");
+  width: 100%;
+  height: 10rem;
+  padding: 20px;
+}
+
+.fakeimgPizza {
+  background-size: cover;
+  background-image: url("/public/pizzahut.jpg");
+  width: 100%;
+  height: 10rem;
+  padding: 20px;
+}
+
+.fakeimgSubway {
+  background-size: cover;
+  background-image: url("/public/subway.jpeg");
+  width: 100%;
+  height: 10rem;
+  padding: 20px;
+}
+
+.fakeimg1 {
+  background-size: cover;
+  background-image: url("/public/propfile.jpg");
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  transition: 1s ease-in-out;
+  z-index: 6;
+
+
+}
+
+.card:hover {
+  background-color: greenyellow;
+  transform: scale(1.1);
+  z-index: 9;
+}
+
+.cardi {
+
+  padding: 20px;
+  margin-top: 20px;
+  color: #EDEDE9;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+
+.cardion {
+
+  padding: 20px;
+  margin-top: 20px;
+  color: #EDEDE9;
+
+}
+
+.cardion:hover {
+
+
+  box-shadow: inset 70rem 0 0 0 #54b3d6;
+  color: black;
+  font-size: larger;
+}
+
+.cardio {
+  background-size: cover;
+  background-image: url("/public/propfile.jpg");
+  width: 100%;
+  height: 20rem;
+  transition: 1s ease-in-out;
+}
+
+.cardio:hover {
+  transform: scale(1.15);
+  color: #000;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  transition: 1s ease-in-out;
+}
+
+.column:hover {
+  transform: scale(1.1);
+}
+
+.cardAbout {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.list {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  transition: 1s ease-in-out;
+}
+
+.list:hover {
+  transform: scale(1.1)
+}
+
+.dark {
+  background: black;
+  color: grey;
+}
+
+
+.signUp {
+  background-image: url("/public/homepage.webp");
+  background-size: cover;
+  background-position: 100%;
+}
+
+.signIn {
+  background-image: url("/public/homepage.webp");
+  background-size: cover;
+  background-position: 100%;
+}
+
+.buisness {
+  background-image: url("/public/homepage.webp");
+  background-size: cover;
+  background-position: 100%;
+}
+
+.about-section {
+  padding: 2rem;
+  text-align: center;
+  background-color: #474e5d;
+  color: burlywood;
+  font-size: x-large;
+  transition: 1s ease-in-out;
+}
+
+.about-section:hover {
+  background-color: #54b3d6;
+  transform: scale(1.1);
+  color: #000;
+}
+
+.contain {
+  padding: 0 16px;
+  transition: 2s ease-out;
+}
+
+.contain:hover {
+  transform: scale(1.1)
+}
+
+
+.titleo {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.listUl {
+  font-size: larger;
+  line-height: 4rem;
+  font-family: fantasy;
+  background-color: #D6CCC2;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
